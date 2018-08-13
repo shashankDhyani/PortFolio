@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\WebSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/PortfolioWebApplication.dll">
+      <publishTime>08/12/2018 23:15:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>08/08/2018 22:09:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>08/08/2018 22:09:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/08/2018 22:09:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>08/08/2018 22:09:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>08/08/2018 22:09:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>08/08/2018 22:09:09</publishTime>
+    </File>
+    <File Include="Content/animate.css">
+      <publishTime>01/26/2016 18:15:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/22/2016 10:57:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>12/31/2015 14:57:18</publishTime>
+    </File>
+    <File Include="Content/css/animate.css">
+      <publishTime>08/11/2018 16:47:14</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.min.css">
+      <publishTime>07/25/2016 21:21:56</publishTime>
+    </File>
+    <File Include="Content/css/font-awesome.min.css">
+      <publishTime>12/22/2016 15:50:34</publishTime>
+    </File>
+    <File Include="Content/css/images/fs.spinner.gif">
+      <publishTime>07/23/2018 22:09:50</publishTime>
+    </File>
+    <File Include="Content/css/stylesheet.css">
+      <publishTime>08/12/2018 16:21:52</publishTime>
+    </File>
+    <File Include="Content/custom.css">
+      <publishTime>08/11/2018 13:06:27</publishTime>
+    </File>
+    <File Include="Content/CustomTailored.css">
+      <publishTime>02/22/2016 11:00:08</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.eot">
+      <publishTime>12/22/2016 15:50:34</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.svg">
+      <publishTime>12/22/2016 15:50:34</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.ttf">
+      <publishTime>12/22/2016 15:50:34</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.woff">
+      <publishTime>12/22/2016 15:50:34</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.woff2">
+      <publishTime>12/22/2016 15:50:34</publishTime>
+    </File>
+    <File Include="Content/fonts/FontAwesome.otf">
+      <publishTime>12/22/2016 15:50:34</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/07/2018 11:04:56</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/07/2018 11:04:56</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/07/2018 11:04:56</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/07/2018 11:04:56</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/07/2018 11:04:56</publishTime>
+    </File>
+    <File Include="Content/fonts/Lora-Bold.ttf">
+      <publishTime>07/06/2011 00:00:00</publishTime>
+    </File>
+    <File Include="Content/fonts/Lora-Italic.ttf">
+      <publishTime>07/06/2011 00:00:00</publishTime>
+    </File>
+    <File Include="Content/fonts/Lora-Regular.ttf">
+      <publishTime>07/06/2011 00:00:00</publishTime>
+    </File>
+    <File Include="Content/fonts/OpenSans-Bold.ttf">
+      <publishTime>02/02/2011 00:00:00</publishTime>
+    </File>
+    <File Include="Content/fonts/OpenSans-ExtraBold.ttf">
+      <publishTime>02/02/2011 00:00:00</publishTime>
+    </File>
+    <File Include="Content/fonts/OpenSans-Italic.ttf">
+      <publishTime>02/02/2011 00:00:00</publishTime>
+    </File>
+    <File Include="Content/fonts/OpenSans-Light.ttf">
+      <publishTime>02/02/2011 00:00:00</publishTime>
+    </File>
+    <File Include="Content/fonts/OpenSans-Regular.ttf">
+      <publishTime>02/02/2011 00:00:00</publishTime>
+    </File>
+    <File Include="Content/fonts/OpenSans-SemiBold.ttf">
+      <publishTime>02/02/2011 00:00:00</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/armchair4.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/behance13.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/bell70.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/briefcase69.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/camera119.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/camera120.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/chart55.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/chat118.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/checkbox6.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/chronometer.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/clipboard.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/coffee128.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/compact disc5.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/directional sign10.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/document6.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/downloading.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/dribbble.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/eye127.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/facebook2.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/flag97.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/flask.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/folded map.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/globe35.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/google plus.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/happy mac.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/heart rate.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/hearts34.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/house180.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/inbox39.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/inbox40.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/instagram19.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/jar21.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/laptop130.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/layers.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/light bulb4.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/lightning31.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/linkedin.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/microphone3.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/notebook91.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/nut4.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/pin66.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/plug.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/power5.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/present33.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/presentation22.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/purse10.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/pyre.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/quaver3.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/rocket77.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/screen84.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/share46.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/shopping cart7.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/speech bubble20.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/star207.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/switch33.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/telephone120.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/timer42.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/truck69.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/tumblr1.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/twitter.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/umbrella1.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/uploading2.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/user7.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/eps/video player.eps">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/flaticon.css">
+      <publishTime>01/27/2016 10:38:32</publishTime>
+    </File>
+    <File Include="Content/Icon/flaticon.eot">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/flaticon.html">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/flaticon.svg">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/flaticon.ttf">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/flaticon.woff">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/license.pdf">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/armchair4.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/behance13.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/bell70.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/briefcase69.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/camera119.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/camera120.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/chart55.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/chat118.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/checkbox6.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/chronometer.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/clipboard.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/coffee128.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/compact disc5.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/directional sign10.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/document6.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/downloading.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/dribbble.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/eye127.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/facebook2.png">
+      <publishTime>01/27/2016 10:31:02</publishTime>
+    </File>
+    <File Include="Content/Icon/png/flag97.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/flask.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/folded map.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/globe35.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/google plus.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/happy mac.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/heart rate.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/hearts34.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/house180.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/inbox39.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/inbox40.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/instagram19.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/jar21.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/laptop130.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/layers.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/light bulb4.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/lightning31.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/linkedin.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/microphone3.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/notebook91.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/nut4.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/pin66.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/plug.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/power5.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/present33.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/presentation22.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/purse10.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/pyre.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/quaver3.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/rocket77.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/screen84.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/share46.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/shopping cart7.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/speech bubble20.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/star207.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/switch33.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/telephone120.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/timer42.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/truck69.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/tumblr1.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/twitter.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/umbrella1.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/uploading2.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/user7.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/png/video player.png">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/armchair4.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/behance13.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/bell70.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/briefcase69.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/camera119.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/camera120.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/chart55.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/chat118.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/checkbox6.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/chronometer.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/clipboard.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/coffee128.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/compact disc5.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/directional sign10.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/document6.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/downloading.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/dribbble.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/eye127.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/facebook2.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/flag97.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/flask.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/folded map.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/globe35.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/google plus.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/happy mac.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/heart rate.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/hearts34.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/house180.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/inbox39.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/inbox40.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/instagram19.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/jar21.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/laptop130.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/layers.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/light bulb4.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/lightning31.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/linkedin.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/microphone3.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/notebook91.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/nut4.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/pin66.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/plug.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/power5.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/present33.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/presentation22.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/purse10.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/pyre.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/quaver3.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/rocket77.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/screen84.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/share46.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/shopping cart7.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/speech bubble20.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/star207.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/switch33.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/telephone120.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/timer42.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/truck69.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/tumblr1.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/twitter.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/umbrella1.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/uploading2.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/user7.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/psd/video player.psd">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/armchair4.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/behance13.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/bell70.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/briefcase69.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/camera119.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/camera120.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/chart55.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/chat118.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/checkbox6.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/chronometer.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/clipboard.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/coffee128.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/compact disc5.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/directional sign10.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/document6.svg">
+      <publishTime>01/27/2016 10:31:04</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/downloading.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/dribbble.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/eye127.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/facebook2.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/flag97.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/flask.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/folded map.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/globe35.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/google plus.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/happy mac.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/heart rate.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/hearts34.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/house180.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/inbox39.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/inbox40.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/instagram19.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/jar21.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/laptop130.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/layers.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/light bulb4.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/lightning31.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/linkedin.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/microphone3.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/notebook91.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/nut4.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/pin66.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/plug.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/power5.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/present33.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/presentation22.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/purse10.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/pyre.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/quaver3.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/rocket77.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/screen84.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/share46.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/shopping cart7.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/speech bubble20.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/star207.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/switch33.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/telephone120.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/timer42.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/truck69.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/tumblr1.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/twitter.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/umbrella1.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/uploading2.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/user7.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Icon/svg/video player.svg">
+      <publishTime>01/27/2016 10:31:06</publishTime>
+    </File>
+    <File Include="Content/Img/2000px-REC_logo.svg.png">
+      <publishTime>01/31/2016 14:49:14</publishTime>
+    </File>
+    <File Include="Content/Img/cityscapes_streets_skyscrapers_construction_site_1280x720_27402.jpg">
+      <publishTime>08/11/2018 16:53:46</publishTime>
+    </File>
+    <File Include="Content/Img/fs.spinner.gif">
+      <publishTime>07/23/2018 22:09:50</publishTime>
+    </File>
+    <File Include="Content/Img/hscclogo.jpg">
+      <publishTime>08/12/2018 12:58:24</publishTime>
+    </File>
+    <File Include="Content/Img/loader.gif">
+      <publishTime>08/08/2018 22:58:34</publishTime>
+    </File>
+    <File Include="Content/Img/manikantaEnterprise.jpg">
+      <publishTime>08/11/2018 16:49:30</publishTime>
+    </File>
+    <File Include="Content/Img/PFC.png">
+      <publishTime>08/12/2018 12:59:30</publishTime>
+    </File>
+    <File Include="Content/Img/Power.png">
+      <publishTime>01/27/2016 12:59:28</publishTime>
+    </File>
+    <File Include="Content/Img/present.jpg">
+      <publishTime>01/31/2016 17:32:26</publishTime>
+    </File>
+    <File Include="Content/Img/PTC.png">
+      <publishTime>08/12/2018 12:59:36</publishTime>
+    </File>
+    <File Include="Content/Img/random1.jpeg">
+      <publishTime>08/09/2018 22:34:15</publishTime>
+    </File>
+    <File Include="Content/Img/random2.jpeg">
+      <publishTime>08/09/2018 22:34:23</publishTime>
+    </File>
+    <File Include="Content/Img/REC.png">
+      <publishTime>08/12/2018 12:59:24</publishTime>
+    </File>
+    <File Include="Content/Img/slider1.jpeg">
+      <publishTime>08/12/2018 13:01:06</publishTime>
+    </File>
+    <File Include="Content/Img/slider2.jpeg">
+      <publishTime>08/12/2018 13:01:48</publishTime>
+    </File>
+    <File Include="Content/Img/slider3.jpeg">
+      <publishTime>08/12/2018 13:01:40</publishTime>
+    </File>
+    <File Include="Content/Img/slider4.jpeg">
+      <publishTime>08/12/2018 13:01:34</publishTime>
+    </File>
+    <File Include="Content/Img/slider5.jpeg">
+      <publishTime>08/12/2018 13:00:56</publishTime>
+    </File>
+    <File Include="Content/Img/slider6.jpeg">
+      <publishTime>08/12/2018 13:01:00</publishTime>
+    </File>
+    <File Include="Content/Img/solar power.jpg">
+      <publishTime>08/12/2018 16:07:08</publishTime>
+    </File>
+    <File Include="Content/Img/Solar.png">
+      <publishTime>08/12/2018 12:59:20</publishTime>
+    </File>
+    <File Include="Content/Img/tehridamflow.jpg">
+      <publishTime>08/11/2018 16:53:20</publishTime>
+    </File>
+    <File Include="Content/Img/THDC.png">
+      <publishTime>08/12/2018 12:59:40</publishTime>
+    </File>
+    <File Include="Content/Img/Transmission-Lines.jpg">
+      <publishTime>08/11/2018 16:53:08</publishTime>
+    </File>
+    <File Include="Content/Img/values1.jpg">
+      <publishTime>08/12/2018 21:48:31</publishTime>
+    </File>
+    <File Include="Content/Img/values2.jpg">
+      <publishTime>08/12/2018 21:48:52</publishTime>
+    </File>
+    <File Include="Content/Img/values3.jpg">
+      <publishTime>08/12/2018 21:53:44</publishTime>
+    </File>
+    <File Include="Content/Img/values4.jpg">
+      <publishTime>08/12/2018 21:54:27</publishTime>
+    </File>
+    <File Include="Content/js/bootstrap.min.js">
+      <publishTime>04/26/2017 19:38:22</publishTime>
+    </File>
+    <File Include="Content/js/custom.js">
+      <publishTime>08/12/2018 16:20:34</publishTime>
+    </File>
+    <File Include="Content/js/jquery-1.12.3.min.js">
+      <publishTime>04/26/2017 19:38:16</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/24/2016 17:02:54</publishTime>
+    </File>
+    <File Include="Content/styles.css">
+      <publishTime>08/11/2018 13:16:10</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/08/2018 22:09:07</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/08/2018 22:09:10</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/12/2018 23:18:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_PortfolioLayout.cshtml">
+      <publishTime>08/12/2018 21:26:51</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>08/08/2018 22:09:07</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/11/2018 13:23:41</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

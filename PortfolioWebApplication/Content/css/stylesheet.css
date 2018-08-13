@@ -1,0 +1,490 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+
+
+html,body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x:hidden;
+}
+
+/* Navigation Css */
+.navbar {
+    min-height: 70px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+.navbar-brand {
+    float: left;
+    height: auto;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #e7e7e7;
+}
+@media (min-width: 768px){
+	.navbar-nav>li>a {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+}
+
+/* Common Css
+-------------------------------------------------- */
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title h2 {
+    margin: 0 0 5px;
+    text-align: center;
+    font-weight: 800;
+    color: #000;
+    position: relative;
+    z-index: 10;
+}
+
+/* Banner Css
+-------------------------------------------------- */
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+#myCarousel  .item {
+  height: 600px;
+  background-color:#bbb;
+}
+#myCarousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 600px;
+}
+
+  
+/* customize nav style */
+.navbar-custom {
+    background-color: #2e2e2e;
+	font-weight:700;
+    text-transform:uppercase;
+    border-width:0;
+}
+.navbar-custom  .navbar-nav>li>a {
+	color: #ddd;
+}
+.navbar-custom  .dropdown-menu li>a:hover {
+	color: #eee;
+}
+.navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
+	background-color: #000;
+}
+.navbar-custom .navbar-nav>.dropdown>a .caret {
+	border-top-color: #999;
+	border-bottom-color: #999;
+}
+
+.navbar-collapse.in { /*3.0.2 bug workaround*/
+    overflow-y: visible;
+}
+
+.navbar-toggle {
+	outline:0;
+}
+
+.divider {
+	height:50px;
+}
+
+.panel {
+	border-width:0;
+}
+
+
+#map-canvas {
+  	width: 100%; 
+  	height: 400px;
+	margin: 0;
+	padding: 15px;
+}
+
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:6%;
+   z-index:100;
+   background: #f2f3f2;
+   font-size:24px;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+}
+.scroll-top a:link,.scroll-top a:visited {
+  color:#222;
+} 
+
+
+.bg-1 {
+	background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bg-2 {
+	background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bg-3 {
+	background: url('http://www.bootply.com/assets/example/bg_blueplane.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bg-4 {
+	padding-top:30px;
+    background-color:#e6e6e6;
+}
+
+.panel .img-responsive {
+	min-height:270px;
+    max-height:270px;
+}
+.changecolorred
+{
+    border-color:Red;
+}
+.custompara
+{
+    font-size:18px;
+}
+.teamdiv
+{
+     height:300px;
+     width:100%;
+     background-color:#373737;
+     opacity:0.9;
+}
+.teamintro
+{
+    text-align:center;
+}
+
+.teamintroimg
+{
+    width:100px;
+    height:100px;
+    border-width:3px;
+    margin-top:70px;
+}
+
+
+            
+
+        .realcarousel-caption {
+            position: absolute;
+            right: 15%;
+            bottom: 20px;
+            left: 15%;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #ffffff;
+            text-align: center;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+        }
+        .carousel-caption {
+            text-align: center;
+            width: 550px;
+            opacity: 0.939;
+            height: 100%;
+            background-color: #2c3e50;
+            margin-left: 0px;
+            position: fixed;
+        }
+        .carousel-control{
+            top: 50%;
+			font-size: 42px;
+			height: 45px;
+			width: 45px;
+        }
+		.carousel-caption img {
+			width: 200px;
+			height: 200px;
+		}       
+	   .carousel-control.left {
+		    left: 40px;
+			background-image: none;
+			background: #565656;
+			border-radius: 50%;
+	   }
+	   .carousel-control.right {
+			right: 40px;
+			background-image: none;
+			background: #565656;
+			border-radius: 50%;
+	   }
+	   .caption-details{
+		  padding-left:30%;
+		  text-align:left;
+	   }
+	   @media (max-width: 768px){
+		 .caption-details{
+		  padding-left:10%;
+		  text-align:left;
+		}
+		.carousel-caption {
+			text-align: center;
+			width: 100%;
+			opacity: 0.939;
+			height: 100%;
+			background-color: #2c3e50;
+			margin-left: 0px;
+			position: fixed;
+		}
+		.carousel-caption h2{
+			font-size:20px;
+		}
+		.carousel-caption h3{
+			font-size:18px;
+		}
+		.carousel-caption h4{
+			font-size:16px;
+		}
+		
+		.carousel-control.left {
+			left: 5px;
+		}
+		.carousel-control.right {
+			right: 5px;
+		}
+		.carousel-control {
+			font-size: 45px;
+			height: 45px;
+			width: 45px;
+		}
+	   }
+
+
+/* What we Belive
+-------------------------------------------------- */
+.what-we-belive{
+	padding: 70px 0px 50px;
+}
+
+.card img {
+    border-radius: 50% 50%;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 150px;
+}
+
+
+/* Our Clients
+-------------------------------------------------- */
+.our-clients{
+	padding: 70px 0px 50px;
+	background-color: #f2f4f8;
+}
+
+.ClientBlock img {
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 80px;
+    height: 80px;
+}
+
+.ClientBlock .media-body{
+	text-align:justify;
+}
+
+
+/* we-create
+-------------------------------------------------- */
+.we-create{
+	padding: 70px 0px 10px;
+}
+
+
+.portfolio-warp {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.single-portfolio {
+	height: 400px;
+	/*width: 33.333333%;*/
+	position: relative;
+	display: block;
+	background-position: center center;
+}
+
+.single-portfolio.sm-wide {
+	width: 22.222222%;
+
+}
+
+.single-portfolio:hover .portfolio-info {
+	opacity: 1;
+}
+
+.portfolio-info {
+	position: absolute;
+	text-decoration: none;
+	width: calc(100% - 110px);
+	height: calc(100% - 110px);
+	left: 55px;
+	top: 55px;
+	text-align: center;
+	padding-top: 220px;
+	border: 1px solid #fff;
+	overflow: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.portfolio-info .pfbg {
+	position: absolute;
+	width: 110%;
+	height: 110%;
+	left: -5%;
+	top: -5%;
+	-webkit-transform: scale(1.12);
+	    -ms-transform: scale(1.12);
+	        transform: scale(1.12);
+	-webkit-filter: blur(20px);
+	        filter: blur(20px);
+	background-position: center center;
+}
+
+.portfolio-info h5 {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	z-index: 9;
+	position: relative;
+	margin-bottom: 10px;
+    top:-140px
+}
+
+.portfolio-info p {
+	font-size: 14px;
+	color: #fff;
+	z-index: 9;
+	position: relative;
+    top:-120px
+}
+
+.portfolio-filter {
+	list-style: none;
+}
+
+.portfolio-filter li {
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-right: 12px;
+	color: #868686;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.portfolio-filter li.mixitup-control-active {
+	color: #111;
+}
+
+
+/* Reach Us
+-------------------------------------------------- */
+.reach-us{
+	padding: 70px 0px;
+}
+
+.card1 .card-icon span {
+    margin-bottom: 16px;
+    font-size: 40px;
+	color:#cc602c;
+}
+
+.card1 h4{
+    font-weight: 600;
+}
+
+/* footer
+-------------------------------------------------- */
+.footer {
+	background-color: #cc602c;
+}
+.footer-top{
+	padding: 40px 30px;
+}
+.footer-top ul li {
+	color: white;
+	list-style-type: none;
+}
+.footer-top ul li a {
+	text-decoration: none;
+	color: white;
+}
+.footer-top ul li a:hover {
+	color: #2c3e50;
+	list-style-type: none;
+	transition-duration: 0.24s;
+	cursor: pointer;
+	text-underline-position: below;
+	text-emphasis-color: #7D624B;
+}
+.footer .footer-bottom{
+	background: #0000004a;
+    padding: 10px;
+}
+.footer .footer-bottom p{
+	margin:0;
+}
+
+
+/* Scroll Up
+-------------------------------------------------- */
+
+#toTop {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+	width: 41px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    z-index: 100;
+    border-color: #cc602c;
+    background-color: #cc602c;
+}
+#toTop span{
+	line-height: 36px;
+}
+#toTop:hover {
+	border-color: #fdca66;
+    background: #fdca66;	
+    color: #fff;
+}
+

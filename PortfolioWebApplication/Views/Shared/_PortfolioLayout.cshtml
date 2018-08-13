@@ -1,0 +1,120 @@
+﻿<html style="height:100%">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/css/animate.css" rel="stylesheet" />
+    <link href="Content/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/css/stylesheet.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="Content/Img/manikantaEnterprise.jpg" />
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="Content/Img/manikantaEnterprise.jpg" class="pull-left" height="50" width="200" />
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="/Home/Index">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu flipInX animated">
+                                <li><a href="/services/Index">Lioasoning Services</a></li>
+                                <li><a href="/Services/Clients">Consultancy Services</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                            <ul class="dropdown-menu flipInX animated">
+                                <li><a href="/AboutUs/Index">Our Background</a></li>
+                                <li>
+                                    <a href="/AboutUs/Gallery">Gallery</a>
+                                </li>
+                                <li><a href="/AboutUs/getNews">News/Update</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us <span class="caret"></span></a>
+                            <ul class="dropdown-menu flipInX animated">
+                                <li><a href="/ContactUs/Index">Reach US</a></li>
+                                <li><a href="/ContactUs/AskQuery">Ask Query</a></li>
+                                <li><a href="/ContactUs/AskATrial">Ask A Trial/Presentation.</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/Careers/Index">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <div style="min-height:100%" class="row">
+            @RenderBody()
+            <hr />
+        </div>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="row">
+                    <ul class="col-lg-4 text-center">
+                        <li><a href="/Careers/Index">Careers</a></li>
+                        <li><a href="/ContactUs/Index">Location</a></li>
+                        <li><a href="/AboutUs/index">About Manikanta</a></li>
+                        <li><a href="/ContactUs/AskQuery">Contact Us</a></li>
+                    </ul>
+                    <ul class="col-lg-4 text-center">
+                        <li><a href="/Services/Clients">Clients</a></li>
+                        <li><a href="/Services/Index">Services</a></li>
+                        <li><a href="/admin/adminLoginGet">Developers</a></li>
+
+                    </ul>
+                    <ul class="col-lg-3 text-center pull-right">
+                        <li class="">
+                            <table>
+                                <tr>
+                                    <td style="color:white;text-align:center">Follow Us:</td>
+                                    <td><a href="https://www.facebook.com/workaholicscom-1562976347251639/">&nbsp;<span class="fa fa-facebook"></span></a></td>
+                                    <td><a href="#">&nbsp;<span class="fa fa-linkedin "></span></a></td>
+                                    <td><a href="#">&nbsp;<span class="fa fa-twitter "></span></a></td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td style="color:white;text-align:center">Find Us On Google Map:</td>
+                                    <td><a href="/ContactUs/Index">&nbsp;&nbsp;<span class="fa fa-map-marker"></span></a></td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p style="color:white;text-align:center">
+                    <span class="fa fa-copyright">&nbsp; 2018</span> Copyright Reserved to Manikanta Enterprises.
+                </p>
+            </div>
+        </footer>
+        <div id="toTop">
+            <span class="fa fa-arrow-up"></span>
+        </div>
+
+
+
+        <script src="Content/js/jquery-1.12.3.min.js"></script>
+        <script src="Content/js/bootstrap.min.js"></script>
+        <script src="Content/js/custom.js"></script>
+
+    </body>
+</html>
